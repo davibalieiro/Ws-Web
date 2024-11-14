@@ -1,0 +1,29 @@
+.pai {
+    background-color:beige;
+}
+h1 {
+    color: tomato;
+    text-align: center;
+
+}
+h2 {
+    color: brown;
+}
+h3 {
+    background-color: rgb(247, 255, 29);
+    border-width: 5px;
+    border-color: rgb(255, 136, 0);
+    border-style: solid;
+    
+}
+.imag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag img {
+    box-sizing: border-box;
+    border: 5px;
+    border-radius: 15px;
+    
+}

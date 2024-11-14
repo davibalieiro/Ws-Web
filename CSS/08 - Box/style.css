@@ -1,0 +1,11 @@
+p {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 20px aqua solid;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: large;
+}

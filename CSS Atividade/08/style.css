@@ -1,0 +1,11 @@
+.abu {
+    background-color: aqua;
+    color: black;
+    border-style: solid;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px;
+    border-style: solid;
+    margin: 30px;
+}

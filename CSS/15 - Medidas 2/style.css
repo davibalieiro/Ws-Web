@@ -1,0 +1,23 @@
+html {
+    background-color: aqua;
+    font-size: 16px;
+
+}
+body {
+    background-color: greenyellow;
+    width: 50%;
+    font-size: 1em;
+}
+.Pai {
+    background-color: tomato;
+    width: 50%;
+    font-size: 2em; 
+}
+.Filha {
+    background-color: green;
+    width: 50%;
+    font-size: 3em;
+}
+.Filho {    
+    background-color: brown;
+}

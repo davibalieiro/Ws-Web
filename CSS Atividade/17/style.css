@@ -1,0 +1,28 @@
+html {
+    background-color:beige;
+}
+h1 {
+    color: tomato;
+    text-align: center;
+
+}
+h2 {
+    color: brown;
+}
+h3 {
+    color: tomato;
+}
+.imag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag img {
+    box-sizing: border-box;
+    border: 5px;
+    border-radius: 15px;
+    
+}
+#abu {
+    color: tomato;
+}

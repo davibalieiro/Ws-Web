@@ -1,0 +1,28 @@
+p {
+    background-color: aqua ;
+    color: black;
+    border-width: 20px;
+    border-color:blue;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+p {
+    border-width: 20px;
+    border-color:blue;
+    border-style: solid;
+    border-radius: 5px;
+} 
+p {
+    border-width: 5px 10px 15px 20px;
+}
+p {
+    border-width: 5px 10px 15px 20px;
+    border-color:blue yellow green red;
+    border-style: solid dashed dotted double;
+    border-radius: 5px;
+}
+p {
+    border: 30px blue solid;
+    
+}

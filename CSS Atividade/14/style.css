@@ -1,0 +1,12 @@
+.abu {
+    box-sizing: border-box;
+    background-color: tomato;
+    width: 500px;
+    height: 300px;
+    border: 10px solid aqua;
+    padding: 20px;
+}
+.preto {
+    color: black;
+    text-align: center;
+ }

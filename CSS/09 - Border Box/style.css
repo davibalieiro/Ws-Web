@@ -1,0 +1,22 @@
+h2, h3 {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 10px aqua solid;
+}
+
+h2{ 
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+h3 {
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+}

@@ -1,0 +1,24 @@
+html {
+    background-color:lightgrey;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 49, 49);
+}
+
+.abu {
+    color: tomato;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem img {
+    
+    box-sizing: border-box;
+    border: 5px solid tomato;
+    border-radius: 15px;
+    
+}
