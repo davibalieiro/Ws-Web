@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>17 - Preto</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main class="container">
-        <h1>Preto</h1>
-        
+      <h1>Cadrastro do Preto</h1>
+      <form action="/submit" method="post" class="container__forms">
+        <div class="container__pessoal">
+          <h2>Imformacao do Preto</h2>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Digita" required />
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Digite seu email" required />
+          <label for="tel">Telephone:</label>
+          <input type="tel" placeholder="Digite seu telephone" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" required />
+          <label for="password">Password:</label>
+          <input type="password" placeholder="ex:12345678" required />
+          <label for="idade">Years:</label>
+          <input type="text" placeholder="ex:12" min="0" max="99" required />
+        </div>
+        <div class="container__preferencias">
+          <h2>Preferencias do Preto</h2>
+          <label for="text">Genero</label>
+          <select name="genero" id="genero" required>
+            Genero:>
+            <option value="">Selecione</option>
+            <option value="masc">Masc</option>
+            <option value="femin">Femin</option>
+          </select>
+          <div class="interesse">
+            <label for="interesse">Interesses:</label>
+
+            <label for="tecnologia">tecnologia</label>
+            <input type="checkbox" name="tecnologia" id="tecnologia" value="tecnologia" checked />
+            <label for="musica">musica</label>
+            <input type="checkbox" name="musica" id="musica" />
+            <label for="esporte">esporte</label>
+            <input type="checkbox" name="esporte" id="esporte" value="esporte" />
+          </div>
+          <div class="newsletter">
+            <label for="newsletter">newsletter tu quer ou nao:</label>
+            <input type="radio" name="radio" id="true" value="true" checked />
+            sim <input type="radio" name="radio" id="false" value="false" /> nao
+          </div>
+        </div>
+        <div class="container__info_adic">
+          <h2>Imformacoes Adicionais</h2>
+          <label for="info_adicionais">Biografia:</label>
+          <textarea name="info_adicionais" id="info_adicionais" placeholder="conta ai pa nois" rows="5" cols="20"></textarea>
+          <label for="color">color:</label>
+          <input type="color" name="cor" id="cor" />
+          <label for="text">Data de Cadrastro:</label>
+          <input type="date" name="date" id="date" />
+          <label for="url">Web site do preto:</label>
+          <input type="url" name="date" id="date" placeholder="https://" />
+          <label for="text">Envie seu arquivo de perfil:</label>
+          <input type="file" name="file" id="file" />
+        </div>
+        <div class="container__enviar">
+          <button type="submit">Enviar</button>
+          <input type="reset" value="Limpar Cadrastro" />
+        </div>
+      </form>
     </main>
-</body>
+  </body>
 </html>
