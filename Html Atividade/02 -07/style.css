@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 30px;
+  background-color: aqua;
+  border-radius: 20px;
+  border: 5px solid rgb(60, 79, 255);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(60, 79, 255);
+  
+}
+h2 {
+  background-color: rgb(60, 79, 255);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.container input[type="button"] {
+  border: none;
+  background-color: tomato;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 0.5em;
+  width: 30%;
+  padding: 10px;
+}
+button {
+  border: none;
+  background-color: tomato;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 0.5em;
+  width: 30%;
+  padding: 10px;
+}
+.container input[type="button"]:hover {
+  background-color: rgb(60, 79, 255);
+}
+button:hover {
+  background-color: rgb(60, 79, 255);
+}
