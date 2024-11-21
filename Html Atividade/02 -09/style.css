@@ -1,0 +1,17 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border-radius: 8px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+button {
+  width: 100%;
+}
