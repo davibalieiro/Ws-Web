@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.abu {
+  color: tomato;
+  text-decoration: none;
+  cursor: pointer;
+}
+.abu:hover {
+  color: black;
+}
+.abu:visited {
+  color: blueviolet;
+}
+.abu:active {
+  background-color: chartreuse;
+}

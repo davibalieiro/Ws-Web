@@ -1,0 +1,15 @@
+.container {
+  background-color: cadetblue;
+  width: 500px;
+  height: 500px;
+  background-image: url(abu.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-position: right; */
+  /* background-position: left; */
+  /* background-position: right bottom; */
+  /* background-position: left top; */
+  /* background-attachment: scroll; */
+}
