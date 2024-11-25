@@ -1,0 +1,7 @@
+p {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 30px;
+    text-shadow: 10px;
+}

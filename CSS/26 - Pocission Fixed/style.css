@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 5000px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    background-color: brown;
+    width: 100%;
+    padding: 30px;
+    padding-top: 20px;
+}
+nav {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
