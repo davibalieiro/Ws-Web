@@ -1,0 +1,12 @@
+.abu1 {
+  position: relative;
+  background-color: darkblue;
+}
+.abu1 {
+  position: absolute;
+  background-color: darkcyan;
+}
+.abu1 {
+  position: static;
+  background-color: darkgreen;
+}

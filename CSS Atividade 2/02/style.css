@@ -3,5 +3,6 @@ p {
     text-transform: capitalize;
     text-decoration: underline;
     line-height: 30px;
-    text-shadow: 10px;
+    text-shadow: 1px 3px red;
+    
 }

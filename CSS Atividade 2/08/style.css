@@ -1,0 +1,12 @@
+.abu1 {
+  display: block;
+  background-color: darkblue;
+}
+.abu2 {
+  display: inline;
+  background-color: darkcyan;
+}
+.abu3 {
+  display: inline-block;
+  background-color: darkgreen;
+}

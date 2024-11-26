@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+p {
+  width: 403px;
+  height: 346px;
+  background-color: darkcyan;
+  background-image: url(Abu.webp);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: contain;
+  background-attachment: scroll;
+}
