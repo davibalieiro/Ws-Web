@@ -1,0 +1,35 @@
+.abu1::before {
+  content: "Inicio:";
+  color: rebeccapurple;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.abu1::after {
+  content: "Final";
+  font-weight: bold;
+  background-color: rebeccapurple;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif
+}
+.abu2::first-letter {
+  color: rebeccapurple;
+  font-weight: bold;
+  font-size: 25px;
+}
+.abu3::first-line{
+  color: rebeccapurple;
+  font-weight: bold;
+}
+/* #text::placeholder {
+  color: rebeccapurple;
+} */
+::placeholder {
+  color: rebeccapurple;
+}
+li::marker {
+  color: rebeccapurple;
+}
+::selection {
+  background-color: green;
+}

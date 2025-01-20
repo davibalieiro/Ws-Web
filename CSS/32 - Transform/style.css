@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: rebeccapurple;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 80px;
+}
+.bu1 {
+    transform: translateX(-8px);
+}
+.bu2 {
+    transform: translateY(-8px);
+}
+.bu3 {
+    transform: translate(-20px,8px);
+}
+.bu4 {
+    transform: rotate(180deg);
+}
+.bu5 {
+    transform: scaleX(1.2);
+}
+.bu6 {
+    transform: scaleY(1.2);
+}
+.bu7:hover {
+    transform: scale(1.1);
+}
+.bu8 {
+    transform: skewX(-20deg);
+}
+.bu9 {
+    transform: skewY(-20deg);
+}
+.bu10 {
+    transform: skew(20deg,-20deg);
+}
+.bu11 {
+    transform: matrix(1.5,0.5,-0.5,1.5,100,50);
+}

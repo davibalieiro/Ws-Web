@@ -4,23 +4,32 @@
   box-sizing: border-box;
 }
 .container {
-  margin: 30px;
-  padding: 10px;
+
+  margin: 0 auto;
   width: 600px;
-  background-color: darkgrey;
+  background-color: rgb(35, 90, 255);
   text-align: center;
-  border: 6px solid darkcyan;
+  border: 6px solid rgb(0, 0, 0);
   border-radius: 6px;
 }
+h1 {
+  color: #000;
+}
 .nav {
-  background-color: cyan;
+  background-color: rgb(11, 161, 255);
   padding: 15px;
-  margin: 0 auto;
+  color: #fff;
+}
+header{
+  padding: 50px;
 }
 header a {
   margin: 30px;
   padding: 20px;
   text-decoration: none;
+}
+a {
+  color: #fff;
 }
 header a:hover {
   color: darkcyan;
@@ -32,5 +41,7 @@ header img {
   margin-top: 10px;
 }
 .rodape {
-  padding: 20px;
+  padding: 30px;
+  
+  background-color: rgb(11, 161, 255);
 }
