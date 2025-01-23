@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.container {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid navy;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container .item {
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+}
+.stretch {
+    align-content: stretch;
+}
+.flex-start {
+    align-content: flex-start;
+}
+.flex-end {
+    align-content: flex-end;
+}
+.center {
+    align-content: center;
+}
+.space-between {
+    align-content: space-between;
+}
+.space-around {
+    align-content: space-around;
+}
+.space-evenly {
+    align-content: space-evenly;
+}

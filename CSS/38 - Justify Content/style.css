@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 10px 0;
+    color: brown;
+}
+
+.container {
+    display: flex;
+    max-width: 50%;
+    min-height: 200px;
+    margin: 0 auto;
+    border: 2px solid navy;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container .item {
+    background-color: brown;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.column {
+    flex-direction: column;
+    border: 2px solid brown;
+}
+
+.column .item {
+    background-color: navy;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.container {
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+    border: 1px solid navy;
+}
+
+.container .item {
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+}
+
+.row-nowrap{
+    flex-flow: row nowrap;
+}
+
+.row-wrap {
+    flex-flow: row wrap;
+}
+
+.column-nowrap {
+    flex-flow: column nowrap;
+}

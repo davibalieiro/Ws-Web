@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.container {
+    display: flex;
+    max-width: 400px;
+    min-height: 200px;
+    margin: 0 auto;
+    border: 1px solid navy;
+}
+
+.container .item {
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.baseline .item:first-child {
+    padding-top: 30px;
+}
+
+.baseline .item:last-child {
+    padding-bottom: 20px;
+}

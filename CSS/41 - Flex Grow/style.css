@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.container {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid navy;
+}
+.container .item {
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    text-align:center;
+}
+.Grow1 {
+    flex-grow: 0;
+}
+.Grow2 {
+    flex-grow: 1;
+}
+.Grow3 {
+    flex-grow: 2;
+}
+.Grow4 {
+    flex-grow: 0,1,2;
+}
