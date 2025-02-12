@@ -1,4 +1,5 @@
-function print(x,y) {
-    return x+y
+function print(x,y){
+    const z = (x*y)/2
+    return z
 }
-print(10,20)
+print(10,5)
